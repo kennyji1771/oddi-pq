@@ -1,27 +1,237 @@
 {
   "trayectos": [
     {
-      "titulo": "ODDI · Estado Mayor",
+      "titulo": "Estado Mayor y ODDI",
       "semestres": [
         {
           "titulo": "Semestre I",
           "clases": [
             {
-              "id": "clase_01",
-              "titulo": "Introducción a la Gestión Pública",
-              "descripcion": "Conceptos básicos y evolución de la administración pública.",
+              "id": "clase1",
+              "titulo": "1. Fundamentos de la Gestión Pública",
+              "descripcion": "Conceptos básicos, evolución y marco legal.",
               "temas": [
                 {
-                  "id": "tema_01",
-                  "titulo": "1. Fundamentos de la Gestión Pública",
-                  "contenido": {
-                    "texto": "La gestión pública comprende los procesos de planificación, organización, dirección y control de los recursos del Estado para satisfacer las necesidades de la comunidad."
-                  },
-                  "consideraciones": [
-                    "Diferencia entre administración pública y gestión pública.",
-                    "Importancia de la rendición de cuentas y transparencia."
-                  ],
-                  "resumenArbol": "GESTIÓN PÚBLICA\n├── Planeación\n├── Organización\n├── Dirección\n└── Control"
+                  "id": "t1_1",
+                  "titulo": "1.1 Definición y objetivos de la Gestión Pública",
+                  "contenido": { "texto": "La gestión pública es el conjunto de acciones mediante las cuales el Estado organiza, planifica, ejecuta y controla los recursos para satisfacer las necesidades colectivas. Objetivos: eficiencia, eficacia, transparencia y rendición de cuentas." },
+                  "consideraciones": ["Diferencia con administración privada", "Énfasis en el bien común"],
+                  "resumenArbol": "GESTIÓN PÚBLICA\n├── Planificación\n├── Organización\n├── Dirección\n└── Control"
+                },
+                {
+                  "id": "t1_2",
+                  "titulo": "1.2 Evolución histórica: Nueva Gestión Pública",
+                  "contenido": { "texto": "Desde el modelo burocrático weberiano hasta la Nueva Gestión Pública (NGP) de los años 80, que introdujo gerencia, resultados y eficiencia." },
+                  "consideraciones": ["Críticas a la NGP", "Post-NGP y gobernanza"],
+                  "resumenArbol": "EVOLUCIÓN\n├── Burocrático (Weber)\n├── NGP (1980s)\n└── Gobernanza actual"
+                },
+                {
+                  "id": "t1_3",
+                  "titulo": "1.3 Marco legal e institucional en Venezuela",
+                  "contenido": { "texto": "Leyes orgánicas de la Administración Pública, desconcentración, descentralización. Principios constitucionales (artículos 141 al 145 CRBV)." },
+                  "consideraciones": ["LOAP", "LOSNCC", "LOPA"],
+                  "resumenArbol": "MARCO LEGAL\n├── CRBV (principios)\n├── LOAP\n├── LOSNCC\n└── LOPA"
+                }
+              ]
+            },
+            {
+              "id": "clase2",
+              "titulo": "2. Planificación Estratégica en el Sector Público",
+              "descripcion": "Métodos, herramientas y marco legal de la planificación.",
+              "temas": [
+                {
+                  "id": "t2_1",
+                  "titulo": "2.1 Políticas públicas y planificación",
+                  "contenido": { "texto": "Las políticas públicas son cursos de acción del gobierno para resolver problemas. La planificación define objetivos, metas y recursos." },
+                  "consideraciones": ["Ciclo de las políticas públicas", "Participación ciudadana"],
+                  "resumenArbol": "POLÍTICAS PÚBLICAS\n├── Agenda\n├── Formulación\n├── Implementación\n└── Evaluación"
+                },
+                {
+                  "id": "t2_2",
+                  "titulo": "2.2 Planificación estratégica: metodologías",
+                  "contenido": { "texto": "Análisis FODA, Balanced Scorecard, Marco Lógico. Enfoque participativo y prospectivo." },
+                  "consideraciones": ["Plan Operativo Anual (POA)", "Indicadores de gestión"],
+                  "resumenArbol": "METODOLOGÍAS\n├── FODA\n├── BSC\n├── Marco Lógico\n└── POA"
+                },
+                {
+                  "id": "t2_3",
+                  "titulo": "2.3 Sistemas de planificación en Venezuela (CÉDULA, SISEPLAN)",
+                  "contenido": { "texto": "El Sistema Nacional de Planificación y la Ley Orgánica de Planificación Pública. Experiencias del CÉDULA y SISEPLAN." },
+                  "consideraciones": ["Consejos de Planificación Local (CLPP)", "Plan de la Patria"],
+                  "resumenArbol": "SISTEMAS\n├── LOAPP\n├── SISEPLAN\n├── CÉDULA\n└── CLPP"
+                }
+              ]
+            },
+            {
+              "id": "clase3",
+              "titulo": "3. Presupuesto Público y Control Fiscal",
+              "descripcion": "Ciclo presupuestario, ejecución y fiscalización.",
+              "temas": [
+                {
+                  "id": "t3_1",
+                  "titulo": "3.1 Ciclo presupuestario",
+                  "contenido": { "texto": "Formulación, discusión, aprobación, ejecución, evaluación y control. Principios de universalidad, anualidad, equilibrio." },
+                  "consideraciones": ["Ley Orgánica de la Administración Financiera del Sector Público (LOAFSP)"],
+                  "resumenArbol": "CICLO\n├── Formulación\n├── Discusión/Aprobación\n├── Ejecución\n└── Evaluación"
+                },
+                {
+                  "id": "t3_2",
+                  "titulo": "3.2 Control interno y externo",
+                  "contenido": { "texto": "Control interno (Contraloría Interna) y externo (Contraloría General de la República, Asamblea Nacional)." },
+                  "consideraciones": ["Fiscalización", "Responsabilidad administrativa, civil y penal"],
+                  "resumenArbol": "CONTROL\n├── Interno (jefatura de control)\n├── Externo (CGR, AN)\n└── Tipos: previo, concomitante, posterior"
+                }
+              ]
+            },
+            {
+              "id": "clase4",
+              "titulo": "4. Transparencia y Rendición de Cuentas",
+              "descripcion": "Mecanismos de acceso a la información y accountability.",
+              "temas": [
+                {
+                  "id": "t4_1",
+                  "titulo": "4.1 Acceso a la información pública",
+                  "contenido": { "texto": "Derecho constitucional. Ley de Transparencia. Portales de transparencia." },
+                  "consideraciones": ["Excepciones: seguridad, privacidad", "Solicitudes de información"],
+                  "resumenArbol": "DERECHO\n├── CRBV (art. 28,143)\n├── Ley de Transparencia\n└── Portales oficiales"
+                },
+                {
+                  "id": "t4_2",
+                  "titulo": "4.2 Rendición de cuentas (accountability)",
+                  "contenido": { "texto": "Mecanismos verticales (voto, juicios políticos) y horizontales (contralorías, auditorías)." },
+                  "consideraciones": ["Cuentas claras", "Participación ciudadana"],
+                  "resumenArbol": "ACCOUNTABILITY\n├── Vertical (ciudadano-gobierno)\n├── Horizontal (poderes, contralorías)\n└── Social (organizaciones civiles)"
+                }
+              ]
+            },
+            {
+              "id": "clase5",
+              "titulo": "5. Evaluación de Políticas Públicas y Gestión por Resultados",
+              "descripcion": "Indicadores, seguimiento y mejora continua.",
+              "temas": [
+                {
+                  "id": "t5_1",
+                  "titulo": "5.1 Modelos de evaluación de políticas",
+                  "contenido": { "texto": "Evaluación de procesos, de impacto, de eficiencia. Enfoques cuantitativos y cualitativos." },
+                  "consideraciones": ["Teoría del cambio", "Evaluación participativa"],
+                  "resumenArbol": "MODELOS\n├── Procesos\n├── Impacto\n├── Eficiencia\n└── Participativa"
+                },
+                {
+                  "id": "t5_2",
+                  "titulo": "5.2 Gestión por Resultados (GPR)",
+                  "contenido": { "texto": "Planificación y presupuesto orientados a resultados. Indicadores de desempeño (producto, resultado, impacto)." },
+                  "consideraciones": ["Presupuesto por resultados (PbR)", "Cuadro de mando integral"],
+                  "resumenArbol": "GPR\n├── Indicadores\n├── PbR\n├── BSC aplicado\n└── Mejora continua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Semestre II",
+          "clases": [
+            {
+              "id": "clase6",
+              "titulo": "6. Gerencia Pública y Liderazgo",
+              "descripcion": "Estilos de liderazgo, motivación y gestión de equipos.",
+              "temas": [
+                {
+                  "id": "t6_1",
+                  "titulo": "6.1 Liderazgo transformacional en el sector público",
+                  "contenido": { "texto": "Liderazgo que inspira cambios, fomenta la innovación y alinea valores éticos." },
+                  "consideraciones": ["Motivación intrínseca", "Gestión del cambio"],
+                  "resumenArbol": "LIDERAZGO\n├── Transformacional\n├── Servicial\n├── Ético"
+                },
+                {
+                  "id": "t6_2",
+                  "titulo": "6.2 Gerencia de equipos y trabajo colaborativo",
+                  "contenido": { "texto": "Gestión de reuniones, comunicación asertiva, resolución de conflictos." },
+                  "consideraciones": ["Cultura organizacional", "Clima laboral"],
+                  "resumenArbol": "EQUIPOS\n├── Comunicación\n├── Conflicto\n├── Evaluación de desempeño"
+                }
+              ]
+            },
+            {
+              "id": "clase7",
+              "titulo": "7. Innovación y Gobierno Digital",
+              "descripcion": "Transformación digital, gobierno electrónico, datos abiertos.",
+              "temas": [
+                {
+                  "id": "t7_1",
+                  "titulo": "7.1 Gobierno Electrónico (e-Gob)",
+                  "contenido": { "texto": "Uso de TIC para mejorar servicios, eficiencia y participación. Niveles: información, interacción, transacción." },
+                  "consideraciones": ["Ventanilla única", "Firma electrónica"],
+                  "resumenArbol": "E-GOB\n├── Información\n├── Interacción\n└── Transacción"
+                },
+                {
+                  "id": "t7_2",
+                  "titulo": "7.2 Datos abiertos y transparencia algorítmica",
+                  "contenido": { "texto": "Publicación de datos en formatos reutilizables, ética en la IA gubernamental." },
+                  "consideraciones": ["Formatos CSV, JSON", "APIs gubernamentales"],
+                  "resumenArbol": "DATOS ABIERTOS\n├── Formatos abiertos\n├── Licencias\n├── APIs"
+                }
+              ]
+            },
+            {
+              "id": "clase8",
+              "titulo": "8. Gestión de Recursos Humanos en el Estado",
+              "descripcion": "Carrera administrativa, meritocracia, clima laboral.",
+              "temas": [
+                {
+                  "id": "t8_1",
+                  "titulo": "8.1 Régimen de carrera administrativa",
+                  "contenido": { "texto": "Estatuto de la función pública. Ingreso por concurso, evaluación, estabilidad." },
+                  "consideraciones": ["Derechos y deberes", "Escalafón"],
+                  "resumenArbol": "CARRERA\n├── Concurso\n├── Nombramiento\n├── Evaluación\n└── Ascenso"
+                },
+                {
+                  "id": "t8_2",
+                  "titulo": "8.2 Clima organizacional y gestión del talento",
+                  "contenido": { "texto": "Diagnóstico de clima, planes de bienestar, capacitación continua." },
+                  "consideraciones": ["Rotación, ausentismo", "Motivación"],
+                  "resumenArbol": "TALENTO\n├── Clima\n├── Capacitación\n├── Retención"
+                }
+              ]
+            },
+            {
+              "id": "clase9",
+              "titulo": "9. Contrataciones Públicas y Compras Gubernamentales",
+              "descripcion": "Marcos normativos, eficiencia y transparencia en compras.",
+              "temas": [
+                {
+                  "id": "t9_1",
+                  "titulo": "9.1 Principios y procedimientos de compras públicas",
+                  "contenido": { "texto": "Licitud, libre competencia, transparencia, selección de contratistas. Licitaciones, concursos, contrataciones directas." },
+                  "consideraciones": ["Ley de Contrataciones Públicas de Venezuela"],
+                  "resumenArbol": "COMPRAS\n├── Licitación\n├── Concurso\n├── Contratación directa"
+                },
+                {
+                  "id": "t9_2",
+                  "titulo": "9.2 Compras electrónicas y sistemas de información",
+                  "contenido": { "texto": "Plataformas como SENCAM (Sistema Electrónico de Contrataciones)." },
+                  "consideraciones": ["Reducción de corrupción", "Rendición de cuentas en línea"],
+                  "resumenArbol": "E-COMPRAS\n├── SENCAM\n├── Registro de proveedores\n└── Publicidad de actos"
+                }
+              ]
+            },
+            {
+              "id": "clase10",
+              "titulo": "10. Ética y Valores en la Función Pública",
+              "descripcion": "Códigos de ética, conflicto de intereses, probidad.",
+              "temas": [
+                {
+                  "id": "t10_1",
+                  "titulo": "10.1 Código de ética del servidor público",
+                  "contenido": { "texto": "Principios: honestidad, integridad, transparencia, lealtad." },
+                  "consideraciones": ["Declaración jurada de intereses", "Incompatibilidades"],
+                  "resumenArbol": "ÉTICA\n├── Principios\n├── Código\n├── Comités de ética"
+                },
+                {
+                  "id": "t10_2",
+                  "titulo": "10.2 Prevención de la corrupción",
+                  "contenido": { "texto": "Estrategias: control interno, auditorías, protección de denunciantes (whistleblowing)." },
+                  "consideraciones": ["Leyes anticorrupción", "Casos emblemáticos"],
+                  "resumenArbol": "ANTICORRUPCIÓN\n├── Controles\n├── Denuncia\n├── Sanciones"
                 }
               ]
             }
