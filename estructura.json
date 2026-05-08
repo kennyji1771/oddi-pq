@@ -1,0 +1,33 @@
+{
+  "trayectos": [
+    {
+      "titulo": "ODDI · Estado Mayor",
+      "semestres": [
+        {
+          "titulo": "Semestre I",
+          "clases": [
+            {
+              "id": "clase_01",
+              "titulo": "Introducción a la Gestión Pública",
+              "descripcion": "Conceptos básicos y evolución de la administración pública.",
+              "temas": [
+                {
+                  "id": "tema_01",
+                  "titulo": "1. Fundamentos de la Gestión Pública",
+                  "contenido": {
+                    "texto": "La gestión pública comprende los procesos de planificación, organización, dirección y control de los recursos del Estado para satisfacer las necesidades de la comunidad."
+                  },
+                  "consideraciones": [
+                    "Diferencia entre administración pública y gestión pública.",
+                    "Importancia de la rendición de cuentas y transparencia."
+                  ],
+                  "resumenArbol": "GESTIÓN PÚBLICA\n├── Planeación\n├── Organización\n├── Dirección\n└── Control"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
